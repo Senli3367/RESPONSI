@@ -127,14 +127,14 @@ namespace ProjectMahasiswa
 
             Console.WriteLine("Daftar Mahasiswa: \n");
 
-            int jum = 1;
+            int number = 1;
 
             foreach (var mahasiswa in list)
             {
-                Console.WriteLine("{0}. {1}, {2}, {3}, {4}", jum, mahasiswa.nim, mahasiswa.nama, mahasiswa.kelamin, mahasiswa.ipk);
+                Console.WriteLine("{0}. {1}, {2}, {3}, {4}", number, mahasiswa.nim, mahasiswa.nama, mahasiswa.kelamin, mahasiswa.ipk);
 
 
-                jum++;
+                number++;
             }
 
             Console.WriteLine("\nTekan enter untuk kembali ke menu");
